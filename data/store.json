@@ -1,0 +1,1123 @@
+{
+  "restaurant": {
+    "name": "الشيخ السوري",
+    "slogan": "الشيخ السوري.. أصالة الطعم السوري",
+    "subtitle": "أشهى المأكولات السورية",
+    "address": "المرج – شارع الورشة – أبو طالب",
+    "phones": [
+      "01150190421",
+      "01030470913",
+      "01023225230"
+    ],
+    "vodafoneCash": "01023225230",
+    "whatsappNumber": "201150190421",
+    "workingHours": "يومياً من ١٢ ظهراً حتى ٣ صباحاً"
+  },
+  "categories": [
+    {
+      "id": "shawarma",
+      "name": "ركن الشاورما",
+      "subtitle": "شاورما سورية على السيخ بتوابل دمشقية أصيلة",
+      "note": "الإضافات المتاحة: موتزريلا (10 جنيه) · بطاطس (10 جنيه) · مشروم (10 جنيه)",
+      "image": "/src/assets/images/hero_shawarma_cinematic_1795045720769.jpg",
+      "order": 1
+    },
+    {
+      "id": "shawarma-meals",
+      "name": "وجبات الشاورما",
+      "subtitle": "فتات، وجبات عربي، وشاورما بالكيلو",
+      "note": "يضاف إلى الوجبات: بطاطس محمرة + ثومية + كاتشب + مخلل + سلطة",
+      "image": "/src/assets/images/food_shawarma_fatteh_1795045721897.jpg",
+      "order": 2
+    },
+    {
+      "id": "family-boxes",
+      "name": "وجبات الشيخ العائلي",
+      "subtitle": "بوكسات متكاملة للمشاركة والعائلة",
+      "image": "/src/assets/images/food_broasted_chicken_1795045721679.jpg",
+      "order": 3
+    },
+    {
+      "id": "crepe",
+      "name": "ركن الكريب السوري",
+      "subtitle": "كريب سوري مقرمش محشو بأشهى الخلطات",
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "order": 4
+    },
+    {
+      "id": "western",
+      "name": "ركن الغربي",
+      "subtitle": "متوفر سندوتش أو وجبة فرد أو وجبة عائلي",
+      "note": "يضاف إلى الوجبات: أرز بسمتي + تومية + عيش + بطاطس + مخلل + كاتشب",
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "order": 5
+    },
+    {
+      "id": "sandwiches",
+      "name": "ركن السندوتشات",
+      "subtitle": "سندوتشات سريعة بحجم صغير أو كبير",
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "order": 6
+    },
+    {
+      "id": "syrian-chicken",
+      "name": "ركن الفراخ السوري",
+      "subtitle": "فراخ سورية متبلة ومشوية على الطريقة الشامية",
+      "note": "يضاف إلى الوجبات: أرز بسمتي + تومية + عيش + بطاطس + مخلل + كاتشب",
+      "image": "/src/assets/images/food_charcoal_grills_1795045721647.jpg",
+      "order": 7
+    },
+    {
+      "id": "charcoal-grills",
+      "name": "ركن المشويات على الفحم",
+      "subtitle": "كفتة وفراخ مشوية على الفحم بنكهة الجمر الأصيلة",
+      "note": "يضاف إلى الوجبات: أرز + بطاطس + ثومية + كاتشب + طحينة + عيش · وبصل وطماطم مشوية + عيش + بطاطس + مخلل + طحينة",
+      "image": "/src/assets/images/food_charcoal_grills_1795045721647.jpg",
+      "order": 8
+    },
+    {
+      "id": "broasted",
+      "name": "ركن البروستد ( فراخ مقلية )",
+      "subtitle": "دجاج بروستد مقرمش ووجبات التوفير والبركة",
+      "image": "/src/assets/images/food_broasted_chicken_1795045721679.jpg",
+      "order": 9
+    },
+    {
+      "id": "appetizers",
+      "name": "ركن المقبلات",
+      "subtitle": "كبة، برك، سلطات شامية، ثومية ومقبلات طازجة",
+      "image": "/src/assets/images/food_syrian_appetizers_1795045722534.jpg",
+      "order": 10
+    }
+  ],
+  "items": [
+    {
+      "id": "sh-1",
+      "categoryId": "shawarma",
+      "name": "سندوتش شاورما صاروخ",
+      "description": "شاورما سورية في خبز صاج مقمر مع الثومية والمخلل بحجم الصاروخ",
+      "price": 110,
+      "addons": [
+        {
+          "id": "addon-mozzarella",
+          "name": "موتزريلا",
+          "price": 10
+        },
+        {
+          "id": "addon-fries",
+          "name": "بطاطس",
+          "price": 10
+        },
+        {
+          "id": "addon-mushroom",
+          "name": "مشروم",
+          "price": 10
+        }
+      ],
+      "image": "/src/assets/images/hero_shawarma_cinematic_1795045720769.jpg",
+      "isPopular": true,
+      "isAvailable": true
+    },
+    {
+      "id": "sh-2",
+      "categoryId": "shawarma",
+      "name": "سندوتش شاورما كبيرة",
+      "description": "شاورما سورية طازجة مع الثومية والمخلل بالحجم الكبير",
+      "price": 80,
+      "addons": [
+        {
+          "id": "addon-mozzarella",
+          "name": "موتزريلا",
+          "price": 10
+        },
+        {
+          "id": "addon-fries",
+          "name": "بطاطس",
+          "price": 10
+        },
+        {
+          "id": "addon-mushroom",
+          "name": "مشروم",
+          "price": 10
+        }
+      ],
+      "image": "/src/assets/images/hero_shawarma_cinematic_1795045720769.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "sh-3",
+      "categoryId": "shawarma",
+      "name": "سندوتش شاورما وسط",
+      "description": "شاورما سورية طازجة مع الثومية والمخلل بالحجم الوسط",
+      "price": 60,
+      "addons": [
+        {
+          "id": "addon-mozzarella",
+          "name": "موتزريلا",
+          "price": 10
+        },
+        {
+          "id": "addon-fries",
+          "name": "بطاطس",
+          "price": 10
+        },
+        {
+          "id": "addon-mushroom",
+          "name": "مشروم",
+          "price": 10
+        }
+      ],
+      "image": "/src/assets/images/hero_shawarma_cinematic_1795045720769.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "shm-1",
+      "categoryId": "shawarma-meals",
+      "name": "وجبة الشيخ ( ماريا )",
+      "description": "خبز ماريا محشو شاورما وموتزريلا مقرمشة مع بطاطس محمرة وثومية وكاتشب ومخلل وسلطة",
+      "price": 135,
+      "image": "/src/assets/images/food_shawarma_fatteh_1795045721897.jpg",
+      "isPopular": true,
+      "isAvailable": true
+    },
+    {
+      "id": "shm-2",
+      "categoryId": "shawarma-meals",
+      "name": "وجبة اكسترا",
+      "description": "وجبة شاورما اكسترا مشبعة مع بطاطس محمرة وثومية وكاتشب ومخلل وسلطة",
+      "price": 185,
+      "image": "/src/assets/images/food_shawarma_fatteh_1795045721897.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "shm-3",
+      "categoryId": "shawarma-meals",
+      "name": "وجبة عربي",
+      "description": "رول شاورما عربي مقطع مع بطاطس محمرة وثومية وكاتشب ومخلل وسلطة",
+      "price": 110,
+      "image": "/src/assets/images/food_shawarma_fatteh_1795045721897.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "shm-4",
+      "categoryId": "shawarma-meals",
+      "name": "فتة وسط",
+      "description": "فتة شاورما سورية بالأرز البسمتي والخبز المحمص والثومية",
+      "price": 120,
+      "image": "/src/assets/images/food_shawarma_fatteh_1795045721897.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "shm-5",
+      "categoryId": "shawarma-meals",
+      "name": "فتة كبيرة",
+      "description": "فتة شاورما كبيرة غنية بالأرز والعيش المحمص والثومية الشامية",
+      "price": 140,
+      "image": "/src/assets/images/food_shawarma_fatteh_1795045721897.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "shm-6",
+      "categoryId": "shawarma-meals",
+      "name": "فتة كريبسي",
+      "description": "فتة أرز بسمتي مع قطع الدجاج الكريسبي المقرمشة والصوصات",
+      "price": 110,
+      "image": "/src/assets/images/food_shawarma_fatteh_1795045721897.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "shm-7",
+      "categoryId": "shawarma-meals",
+      "name": "فتة زنجر",
+      "description": "فتة أرز بسمتي مع قطع الزنجر الحار المقرمشة والثومية",
+      "price": 115,
+      "image": "/src/assets/images/food_shawarma_fatteh_1795045721897.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "shm-8",
+      "categoryId": "shawarma-meals",
+      "name": "شاورما 1 كيلو",
+      "description": "كيلو شاورما سورية صافي جاهز للتقديم مع الإضافات الجانبية",
+      "price": 500,
+      "image": "/src/assets/images/food_shawarma_fatteh_1795045721897.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "shm-9",
+      "categoryId": "shawarma-meals",
+      "name": "شاورما نص كيلو",
+      "description": "نصف كيلو شاورما سورية صافي مع ثومية ومخلل وعيش",
+      "price": 260,
+      "image": "/src/assets/images/food_shawarma_fatteh_1795045721897.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "shm-10",
+      "categoryId": "shawarma-meals",
+      "name": "وجبة شاورما فرد واحد",
+      "description": "شاورما سورية متكاملة لفرد مع بطاطس محمرة وثومية وكاتشب ومخلل وسلطة",
+      "price": 160,
+      "image": "/src/assets/images/food_shawarma_fatteh_1795045721897.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "shm-11",
+      "categoryId": "shawarma-meals",
+      "name": "وجبة شاورما عائلي",
+      "description": "وجبة شاورما عائلية متكاملة مع بطاطس محمرة وثومية وكاتشب ومخلل وسلطة",
+      "price": 350,
+      "image": "/src/assets/images/food_shawarma_fatteh_1795045721897.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "fb-1",
+      "categoryId": "family-boxes",
+      "name": "بوكس التوفير",
+      "description": "شاورما فراخ - بطاطس - محمرة - ثومية - مخلل - صوص حار - عيش - محمص",
+      "price": 430,
+      "image": "/src/assets/images/food_shawarma_fatteh_1795045721897.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "fb-2",
+      "categoryId": "family-boxes",
+      "name": "بوكس MEX",
+      "description": "ربع فرخة - 2 ق كريسبي - 2 ق اسكالوب - بطاطس محمرة - تومية - مخلل - صوص حار - أرز - عيش - محمص",
+      "price": 220,
+      "image": "/src/assets/images/food_broasted_chicken_1795045721679.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "fb-3",
+      "categoryId": "family-boxes",
+      "name": "بوكس الشيخ",
+      "description": "2 ق تشيكن رول - 2 ق زنجر - 2 ق كرانشي - بطاطس - محمرة - تومية - مخلل - صوص حار - أرز - عيش - محمص",
+      "price": 225,
+      "image": "/src/assets/images/food_broasted_chicken_1795045721679.jpg",
+      "isPopular": true,
+      "isAvailable": true
+    },
+    {
+      "id": "fb-4",
+      "categoryId": "family-boxes",
+      "name": "بوكس الأكابر",
+      "description": "نص مشوى - نص بروستد - نص كيلو كفتة لحمة - 250 ج شاورما",
+      "price": 700,
+      "image": "/src/assets/images/food_charcoal_grills_1795045721647.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-1",
+      "categoryId": "crepe",
+      "name": "كريب الشيخ السوري",
+      "description": "كريب الشيخ السوري المميز بخلطة الدجاج والجبن الذائب والصوصات الخاصة",
+      "price": 90,
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isPopular": true,
+      "isAvailable": true
+    },
+    {
+      "id": "cr-2",
+      "categoryId": "crepe",
+      "name": "كريب زنجر",
+      "price": 90,
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-3",
+      "categoryId": "crepe",
+      "name": "كريب فاهيتا",
+      "price": 80,
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-4",
+      "categoryId": "crepe",
+      "name": "كريب شاورما فراخ",
+      "price": 85,
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-5",
+      "categoryId": "crepe",
+      "name": "كريب مشكل فراخ",
+      "price": 90,
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-6",
+      "categoryId": "crepe",
+      "name": "كريب كرسبي",
+      "price": 85,
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-7",
+      "categoryId": "crepe",
+      "name": "كريب شيش",
+      "price": 90,
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-8",
+      "categoryId": "crepe",
+      "name": "كريب همبرجر لحمة",
+      "price": 75,
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-9",
+      "categoryId": "crepe",
+      "name": "كريب كفتة كندوز",
+      "price": 80,
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-10",
+      "categoryId": "crepe",
+      "name": "كريب سجق",
+      "price": 80,
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-11",
+      "categoryId": "crepe",
+      "name": "كريب كبدة",
+      "price": 70,
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-12",
+      "categoryId": "crepe",
+      "name": "كريب بانية مع بطاطس",
+      "price": 65,
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-13",
+      "categoryId": "crepe",
+      "name": "كريب بطاطس",
+      "price": 45,
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-14",
+      "categoryId": "crepe",
+      "name": "كريب بانية",
+      "price": 55,
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "cr-15",
+      "categoryId": "crepe",
+      "name": "كريب شيوكولاته",
+      "price": 65,
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ws-1",
+      "categoryId": "western",
+      "name": "الشيخ السوري",
+      "description": "وجبة غربية مميزة بتتبيلة الشيخ الخاصة (متوفر وجبة فرد ووجبة عائلي)",
+      "price": 135,
+      "variants": [
+        {
+          "label": "وجبة فرد",
+          "price": 135
+        },
+        {
+          "label": "وجبة عائلي",
+          "price": 245
+        }
+      ],
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ws-2",
+      "categoryId": "western",
+      "name": "زنجر",
+      "price": 90,
+      "variants": [
+        {
+          "label": "سندوتش",
+          "price": 90
+        },
+        {
+          "label": "وجبة فرد",
+          "price": 120
+        },
+        {
+          "label": "وجبة عائلي",
+          "price": 230
+        }
+      ],
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ws-3",
+      "categoryId": "western",
+      "name": "تشيكن سوبريم",
+      "price": 90,
+      "variants": [
+        {
+          "label": "سندوتش",
+          "price": 90
+        },
+        {
+          "label": "وجبة فرد",
+          "price": 120
+        },
+        {
+          "label": "وجبة عائلي",
+          "price": 250
+        }
+      ],
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ws-4",
+      "categoryId": "western",
+      "name": "اسكالوب",
+      "price": 75,
+      "variants": [
+        {
+          "label": "سندوتش",
+          "price": 75
+        },
+        {
+          "label": "وجبة فرد",
+          "price": 115
+        },
+        {
+          "label": "وجبة عائلي",
+          "price": 225
+        }
+      ],
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ws-5",
+      "categoryId": "western",
+      "name": "فاهيتا",
+      "price": 75,
+      "variants": [
+        {
+          "label": "سندوتش",
+          "price": 75
+        },
+        {
+          "label": "وجبة فرد",
+          "price": 115
+        },
+        {
+          "label": "وجبة عائلي",
+          "price": 230
+        }
+      ],
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ws-6",
+      "categoryId": "western",
+      "name": "مكسيكي",
+      "price": 75,
+      "variants": [
+        {
+          "label": "سندوتش",
+          "price": 75
+        },
+        {
+          "label": "وجبة فرد",
+          "price": 115
+        },
+        {
+          "label": "وجبة عائلي",
+          "price": 230
+        }
+      ],
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ws-7",
+      "categoryId": "western",
+      "name": "كريسبي",
+      "price": 85,
+      "variants": [
+        {
+          "label": "سندوتش",
+          "price": 85
+        },
+        {
+          "label": "وجبة فرد",
+          "price": 110
+        },
+        {
+          "label": "وجبة عائلي",
+          "price": 225
+        }
+      ],
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ws-8",
+      "categoryId": "western",
+      "name": "شيش",
+      "price": 90,
+      "variants": [
+        {
+          "label": "سندوتش",
+          "price": 90
+        },
+        {
+          "label": "وجبة فرد",
+          "price": 125
+        },
+        {
+          "label": "وجبة عائلي",
+          "price": 250
+        }
+      ],
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ws-9",
+      "categoryId": "western",
+      "name": "كبدة فراخ",
+      "price": 50,
+      "variants": [
+        {
+          "label": "سندوتش",
+          "price": 50
+        },
+        {
+          "label": "وجبة فرد",
+          "price": 115
+        },
+        {
+          "label": "وجبة عائلي",
+          "price": 220
+        }
+      ],
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "sw-1",
+      "categoryId": "sandwiches",
+      "name": "سندويش بطاطس",
+      "price": 25,
+      "variants": [
+        {
+          "label": "صغير",
+          "price": 25
+        },
+        {
+          "label": "كبير",
+          "price": 40
+        }
+      ],
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "sw-2",
+      "categoryId": "sandwiches",
+      "name": "سندويش بطاطس مع موتزريلا",
+      "price": 40,
+      "variants": [
+        {
+          "label": "صغير",
+          "price": 40
+        },
+        {
+          "label": "كبير",
+          "price": 50
+        }
+      ],
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "sw-3",
+      "categoryId": "sandwiches",
+      "name": "سندويش بانيه",
+      "price": 30,
+      "variants": [
+        {
+          "label": "صغير",
+          "price": 30
+        },
+        {
+          "label": "كبير",
+          "price": 45
+        }
+      ],
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "sw-4",
+      "categoryId": "sandwiches",
+      "name": "سندويش بانية مع بطاطا",
+      "price": 35,
+      "variants": [
+        {
+          "label": "صغير",
+          "price": 35
+        },
+        {
+          "label": "كبير",
+          "price": 55
+        }
+      ],
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "sw-5",
+      "categoryId": "sandwiches",
+      "name": "سندويش كبدة فراخ",
+      "price": 35,
+      "variants": [
+        {
+          "label": "صغير",
+          "price": 35
+        },
+        {
+          "label": "كبير",
+          "price": 50
+        }
+      ],
+      "image": "/src/assets/images/food_crepe_western_1795045721239.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "sc-1",
+      "categoryId": "syrian-chicken",
+      "name": "فرخة كاملة",
+      "description": "تقدم مع أرز بسمتي + تومية + عيش + بطاطس + مخلل + كاتشب",
+      "price": 350,
+      "image": "/src/assets/images/food_charcoal_grills_1795045721647.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "sc-2",
+      "categoryId": "syrian-chicken",
+      "name": "نصف فرخة",
+      "description": "تقدم مع أرز بسمتي + تومية + عيش + بطاطس + مخلل + كاتشب",
+      "price": 185,
+      "image": "/src/assets/images/food_charcoal_grills_1795045721647.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "sc-3",
+      "categoryId": "syrian-chicken",
+      "name": "ربع صدر",
+      "price": 120,
+      "image": "/src/assets/images/food_charcoal_grills_1795045721647.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "sc-4",
+      "categoryId": "syrian-chicken",
+      "name": "ربع ورك",
+      "price": 100,
+      "image": "/src/assets/images/food_charcoal_grills_1795045721647.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "sc-5",
+      "categoryId": "syrian-chicken",
+      "name": "وجبة مكس",
+      "description": "( ربع فرخة + قطعتين كرسبي + شاورما سايبة )",
+      "price": 210,
+      "image": "/src/assets/images/food_charcoal_grills_1795045721647.jpg",
+      "isPopular": true,
+      "isAvailable": true
+    },
+    {
+      "id": "sc-6",
+      "categoryId": "syrian-chicken",
+      "name": "وجبة مكس دبل",
+      "description": "( نصف فرخة + أربع قطع كرسبي + شاورما سايبة )",
+      "price": 415,
+      "image": "/src/assets/images/food_charcoal_grills_1795045721647.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "gr-1",
+      "categoryId": "charcoal-grills",
+      "name": "1 كيلو كفتة",
+      "description": "كفتة مشوية على الفحم مع أرز وبطاطس وثومية وكاتشب وطحينة وعيش",
+      "price": 350,
+      "image": "/src/assets/images/food_charcoal_grills_1795045721647.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "gr-2",
+      "categoryId": "charcoal-grills",
+      "name": "نصف كيلو كفتة",
+      "description": "نصف كيلو كفتة مشوية على الفحم مع الإضافات الشامية",
+      "price": 185,
+      "image": "/src/assets/images/food_charcoal_grills_1795045721647.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "gr-3",
+      "categoryId": "charcoal-grills",
+      "name": "وجبة كفتة فرد",
+      "description": "وجبة كفتة على الفحم للفرد مع أرز وبطاطس وثومية وطحينة وعيش",
+      "price": 100,
+      "image": "/src/assets/images/food_charcoal_grills_1795045721647.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "gr-4",
+      "categoryId": "charcoal-grills",
+      "name": "فرخة على الفحم",
+      "description": "فرخة كاملة مشوية على الفحم مع بصل وطماطم مشوية وأرز وبطاطس وثومية وطحينة وعيش",
+      "price": 350,
+      "image": "/src/assets/images/food_charcoal_grills_1795045721647.jpg",
+      "isPopular": true,
+      "isAvailable": true
+    },
+    {
+      "id": "gr-5",
+      "categoryId": "charcoal-grills",
+      "name": "نصف فرخة على الفحم",
+      "description": "نصف فرخة مشوية على الفحم مع أرز وبطاطس وثومية وطحينة ومخلل وعيش",
+      "price": 185,
+      "image": "/src/assets/images/food_charcoal_grills_1795045721647.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "br-1",
+      "categoryId": "broasted",
+      "name": "نصف فرخة 4 قطع",
+      "price": 185,
+      "image": "/src/assets/images/food_broasted_chicken_1795045721679.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "br-2",
+      "categoryId": "broasted",
+      "name": "ربع فرخة صدر",
+      "price": 125,
+      "image": "/src/assets/images/food_broasted_chicken_1795045721679.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "br-3",
+      "categoryId": "broasted",
+      "name": "ربع فرخة ورك",
+      "price": 100,
+      "image": "/src/assets/images/food_broasted_chicken_1795045721679.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "br-4",
+      "categoryId": "broasted",
+      "name": "وجبة الدراويش",
+      "description": "( أربع أجنحة - عيش - أرز - بطاطس - مخلل - تومية - كاتشب )",
+      "price": 90,
+      "image": "/src/assets/images/food_broasted_chicken_1795045721679.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "br-5",
+      "categoryId": "broasted",
+      "name": "وجبة الغلابة",
+      "description": "( دبوسين مقرمشين - عيش - أرز - بطاطس - مخلل - تومية - كاتشب )",
+      "price": 85,
+      "image": "/src/assets/images/food_broasted_chicken_1795045721679.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "br-6",
+      "categoryId": "broasted",
+      "name": "وجبة التوفير العائلي",
+      "description": "( 10 دبابيس - بطاطس - تومية - مخلل - أرز - عيش )",
+      "price": 350,
+      "image": "/src/assets/images/food_broasted_chicken_1795045721679.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "br-7",
+      "categoryId": "broasted",
+      "name": "وجبة البركة",
+      "description": "( خمس دبابيس - عيش - بطاطس - تومية - مخلل - كاتشب - أرز )",
+      "price": 200,
+      "image": "/src/assets/images/food_broasted_chicken_1795045721679.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "br-8",
+      "categoryId": "broasted",
+      "name": "وجبة الخير",
+      "description": "( 10 أجنحة - بطاطس - تومية - مخلل - عيش - كاتشب - أرز )",
+      "price": 175,
+      "image": "/src/assets/images/food_broasted_chicken_1795045721679.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ap-1",
+      "categoryId": "appetizers",
+      "name": "كبة مقلية",
+      "price": 25,
+      "image": "/src/assets/images/food_syrian_appetizers_1795045722534.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ap-2",
+      "categoryId": "appetizers",
+      "name": "كبة مشوية",
+      "price": 30,
+      "image": "/src/assets/images/food_syrian_appetizers_1795045722534.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ap-3",
+      "categoryId": "appetizers",
+      "name": "برك بالجبنة",
+      "price": 20,
+      "image": "/src/assets/images/food_syrian_appetizers_1795045722534.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ap-4",
+      "categoryId": "appetizers",
+      "name": "برك باللحمة",
+      "price": 20,
+      "image": "/src/assets/images/food_syrian_appetizers_1795045722534.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ap-5",
+      "categoryId": "appetizers",
+      "name": "فتوش",
+      "price": 35,
+      "image": "/src/assets/images/food_syrian_appetizers_1795045722534.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ap-6",
+      "categoryId": "appetizers",
+      "name": "يالنجي",
+      "price": 40,
+      "image": "/src/assets/images/food_syrian_appetizers_1795045722534.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ap-7",
+      "categoryId": "appetizers",
+      "name": "تبولة",
+      "price": 50,
+      "image": "/src/assets/images/food_syrian_appetizers_1795045722534.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ap-8",
+      "categoryId": "appetizers",
+      "name": "سلطة خضراء",
+      "price": 40,
+      "image": "/src/assets/images/food_syrian_appetizers_1795045722534.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ap-9",
+      "categoryId": "appetizers",
+      "name": "مسبحة",
+      "price": 30,
+      "image": "/src/assets/images/food_syrian_appetizers_1795045722534.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ap-10",
+      "categoryId": "appetizers",
+      "name": "تومية",
+      "price": 20,
+      "variants": [
+        {
+          "label": "صغير",
+          "price": 20
+        },
+        {
+          "label": "كبير",
+          "price": 30
+        }
+      ],
+      "image": "/src/assets/images/food_syrian_appetizers_1795045722534.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ap-11",
+      "categoryId": "appetizers",
+      "name": "طبق أرز",
+      "price": 30,
+      "variants": [
+        {
+          "label": "صغير",
+          "price": 30
+        },
+        {
+          "label": "كبير",
+          "price": 50
+        }
+      ],
+      "image": "/src/assets/images/food_syrian_appetizers_1795045722534.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ap-12",
+      "categoryId": "appetizers",
+      "name": "طبق بطاطس",
+      "price": 30,
+      "variants": [
+        {
+          "label": "صغير",
+          "price": 30
+        },
+        {
+          "label": "كبير",
+          "price": 50
+        }
+      ],
+      "image": "/src/assets/images/food_syrian_appetizers_1795045722534.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ap-13",
+      "categoryId": "appetizers",
+      "name": "طبق بطاطس مع موتزريلا",
+      "price": 40,
+      "variants": [
+        {
+          "label": "صغير",
+          "price": 40
+        },
+        {
+          "label": "كبير",
+          "price": 60
+        }
+      ],
+      "image": "/src/assets/images/food_syrian_appetizers_1795045722534.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ap-14",
+      "categoryId": "appetizers",
+      "name": "كول سلو",
+      "price": 30,
+      "variants": [
+        {
+          "label": "صغير",
+          "price": 30
+        },
+        {
+          "label": "كبير",
+          "price": 40
+        }
+      ],
+      "image": "/src/assets/images/food_syrian_appetizers_1795045722534.jpg",
+      "isAvailable": true
+    },
+    {
+      "id": "ap-15",
+      "categoryId": "appetizers",
+      "name": "مخلل",
+      "price": 15,
+      "variants": [
+        {
+          "label": "صغير",
+          "price": 15
+        },
+        {
+          "label": "كبير",
+          "price": 20
+        }
+      ],
+      "image": "/src/assets/images/food_syrian_appetizers_1795045722534.jpg",
+      "isAvailable": true
+    }
+  ],
+  "offers": [
+    {
+      "id": "offer-tawfeer",
+      "title": "بوكس التوفير",
+      "description": "شاورما فراخ + بطاطس محمرة + ثومية + مخلل + صوص حار + عيش محمص",
+      "price": 430,
+      "image": "/src/assets/images/food_shawarma_fatteh_1795045721897.jpg",
+      "linkedItemId": "fb-1",
+      "isActive": true
+    },
+    {
+      "id": "offer-mex",
+      "title": "بوكس MEX",
+      "description": "ربع فرخة + 2 ق كريسبي + 2 ق اسكالوب + بطاطس محمرة + تومية + مخلل + صوص حار + أرز + عيش محمص",
+      "price": 220,
+      "image": "/src/assets/images/food_broasted_chicken_1795045721679.jpg",
+      "linkedItemId": "fb-2",
+      "isActive": true
+    },
+    {
+      "id": "offer-shikh",
+      "title": "بوكس الشيخ",
+      "description": "2 ق تشيكن رول + 2 ق زنجر + 2 ق كرانشي + بطاطس محمرة + تومية + مخلل + صوص حار + أرز + عيش محمص",
+      "price": 225,
+      "image": "/src/assets/images/food_broasted_chicken_1795045721679.jpg",
+      "linkedItemId": "fb-3",
+      "isActive": true
+    },
+    {
+      "id": "offer-akaber",
+      "title": "بوكس الأكابر",
+      "description": "نص مشوى + نص بروستد + نص كيلو كفتة لحمة + 250 ج شاورما",
+      "price": 700,
+      "image": "/src/assets/images/food_charcoal_grills_1795045721647.jpg",
+      "linkedItemId": "fb-4",
+      "isActive": true
+    },
+    {
+      "id": "offer-family-broasted",
+      "title": "وجبة التوفير العائلي",
+      "description": "10 دبابيس بروستد + بطاطس + تومية + مخلل + أرز + عيش",
+      "price": 350,
+      "image": "/src/assets/images/food_broasted_chicken_1795045721679.jpg",
+      "linkedItemId": "br-6",
+      "isActive": true
+    },
+    {
+      "id": "offer-baraka",
+      "title": "وجبة البركة",
+      "description": "خمس دبابيس + عيش + بطاطس + تومية + مخلل + كاتشب + أرز",
+      "price": 200,
+      "image": "/src/assets/images/food_broasted_chicken_1795045721679.jpg",
+      "linkedItemId": "br-7",
+      "isActive": true
+    }
+  ],
+  "orders": []
+}
