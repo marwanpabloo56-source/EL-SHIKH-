@@ -11,7 +11,7 @@ export function AboutSection({ restaurant }: AboutSectionProps) {
         {/* Authentic Full Brand Seal on Warm Ivory Parchment */}
         <div className="lg:col-span-5 rounded-2xl bg-[#FAF6F0] border border-[#D4AF37]/40 p-8 sm:p-10 flex flex-col items-center justify-center text-center shadow-xl">
           <img
-            src="/logo-full.png"
+            src={`${import.meta.env.BASE_URL}logo-full.png`}
             alt={`الشعار الرسمي لمطعم ${restaurant.name}`}
             className="w-60 sm:w-64 h-auto object-contain"
           />
