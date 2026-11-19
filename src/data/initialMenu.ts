@@ -1,12 +1,18 @@
+import dishImage0 from '../assets/images/hero_shawarma_cinematic_1795045720769.jpg';
+import dishImage1 from '../assets/images/food_shawarma_fatteh_1795045721897.jpg';
+import dishImage2 from '../assets/images/food_crepe_western_1795045721239.jpg';
+import dishImage3 from '../assets/images/food_charcoal_grills_1795045721647.jpg';
+import dishImage4 from '../assets/images/food_broasted_chicken_1795045721679.jpg';
+import dishImage5 from '../assets/images/food_syrian_appetizers_1795045722534.jpg';
 import type { MenuAddon, MenuCategory, MenuItem, OfferItem, RestaurantInfo } from '../types.ts';
 
 export const IMAGES = {
-  hero: '/src/assets/images/hero_shawarma_cinematic_1795045720769.jpg',
-  shawarmaFatteh: '/src/assets/images/food_shawarma_fatteh_1795045721897.jpg',
-  crepeWestern: '/src/assets/images/food_crepe_western_1795045721239.jpg',
-  charcoalGrills: '/src/assets/images/food_charcoal_grills_1795045721647.jpg',
-  broasted: '/src/assets/images/food_broasted_chicken_1795045721679.jpg',
-  appetizers: '/src/assets/images/food_syrian_appetizers_1795045722534.jpg',
+  hero: dishImage0,
+  shawarmaFatteh: dishImage1,
+  crepeWestern: dishImage2,
+  charcoalGrills: dishImage3,
+  broasted: dishImage4,
+  appetizers: dishImage5,
 } as const;
 
 export const SHAWARMA_ADDONS: MenuAddon[] = [
