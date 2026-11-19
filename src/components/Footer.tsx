@@ -15,7 +15,7 @@ export function Footer({ restaurant, onOpenAdmin }: FooterProps) {
           <div className="space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="/logo-emblem.png"
+                src={`${import.meta.env.BASE_URL}logo-emblem.png`}
                 alt={`شعار ${restaurant.name}`}
                 className="h-12 w-12 object-contain"
               />
