@@ -35,7 +35,7 @@ export function Navbar({ restaurant, cartCount, onOpenCart, onOpenAdmin }: Navba
             className="flex items-center gap-3 whitespace-nowrap shrink-0 focus-visible:outline-2 focus-visible:outline-[#D4AF37] rounded-md"
           >
             <img
-              src="/logo-emblem.png"
+              src={`${import.meta.env.BASE_URL}logo-emblem.png`}
               alt={`شعار مطعم ${restaurant.name}`}
               className="h-11 w-11 object-contain"
             />
@@ -113,7 +113,7 @@ export function Navbar({ restaurant, cartCount, onOpenCart, onOpenAdmin }: Navba
               {/* Original Full Extracted Logo inside Warm Parchment Crest */}
               <div className="mb-6 rounded-xl bg-[#FAF6F0] p-4 flex items-center justify-center border border-[#D4AF37]/40">
                 <img
-                  src="/logo-full.png"
+                  src={`${import.meta.env.BASE_URL}logo-full.png`}
                   alt={`شعار ${restaurant.name} الأصلي`}
                   className="h-32 w-auto object-contain"
                 />
