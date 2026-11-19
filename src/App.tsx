@@ -27,6 +27,12 @@ import { AdminModal } from './components/AdminModal.tsx';
 const CART_STORAGE_KEY = 'alshikh_cart_v1';
 
 export default function App() {
+  const [showSplash, setShowSplash] = useState(true);
+  useEffect(() => {
+    const timer = window.setTimeout(() => setShowSplash(false), 1700);
+    return () => window.clearTimeout(timer);
+  }, []);
+
   const [restaurant, setRestaurant] = useState<RestaurantInfo>(INITIAL_RESTAURANT);
   const [categories, setCategories] = useState<MenuCategory[]>(INITIAL_CATEGORIES);
   const [items, setItems] = useState<MenuItem[]>(INITIAL_ITEMS);
@@ -154,6 +160,13 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#0F0B0A] text-[#FAF6F0]" dir="rtl">
+      {showSplash && (
+        <div className="fixed inset-0 z-[100] flex flex-col items-center justify-center gap-5 bg-[#0F0B0A] text-center" role="status" aria-label="جاري تحميل موقع الشيخ السوري">
+          <img src={`${import.meta.env.BASE_URL}logo-full.png`} alt="شعار الشيخ السوري" className="w-40 h-40 object-contain animate-pulse rounded-xl bg-[#FAF6F0] p-3" />
+          <p className="font-editorial text-2xl text-[#E5C76B] font-bold">الشيخ السوري</p>
+          <div className="w-36 h-1 overflow-hidden rounded-full bg-[#392820]"><div className="h-full w-full bg-[#D4AF37] origin-right animate-pulse" /></div>
+        </div>
+      )}
       <Navbar
         restaurant={restaurant}
         cartCount={totalCartItems}
