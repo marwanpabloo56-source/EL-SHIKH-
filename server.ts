@@ -24,7 +24,18 @@ const PORT = 3000;
 const DATA_DIR = path.resolve(process.cwd(), 'data');
 const DATA_FILE = path.join(DATA_DIR, 'store.json');
 const UPLOAD_DIR = path.resolve(process.cwd(), 'public', 'uploads');
-const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || 'shikh2026';
+// Store only a salted scrypt verifier for the default admin password.
+// A deployment-specific ADMIN_PASSWORD environment variable takes precedence.
+const DEFAULT_ADMIN_SALT = '9f1879ec9c1b0e64ff694fadf134c122';
+const DEFAULT_ADMIN_HASH = '0e6288bc8133c8267394eecef829d367176111eb75c474f4f0dadfe68d0a8dc7';
+function isValidAdminPassword(password: string): boolean {
+  const override = process.env.ADMIN_PASSWORD;
+  const actual = override
+    ? crypto.scryptSync(override, Buffer.from(DEFAULT_ADMIN_SALT, 'hex'), 32)
+    : Buffer.from(DEFAULT_ADMIN_HASH, 'hex');
+  const supplied = crypto.scryptSync(password, Buffer.from(DEFAULT_ADMIN_SALT, 'hex'), 32);
+  return crypto.timingSafeEqual(supplied, actual);
+}
 
 const activeTokens = new Set<string>();
 
@@ -160,7 +171,7 @@ async function startServer() {
   // Admin Login
   app.post('/api/admin/login', (req, res) => {
     const { password } = req.body || {};
-    if (typeof password !== 'string' || password !== ADMIN_PASSWORD) {
+    if (typeof password !== 'string' || !isValidAdminPassword(password)) {
       res.status(401).json({ error: 'كلمة المرور غير صحيحة.' });
       return;
     }
